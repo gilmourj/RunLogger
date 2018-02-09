@@ -1,0 +1,25 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="pref_social_running"
+        android:summary="@string/pref_description_social_running"
+        android:title="@string/pref_enable_social_running" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="units_switch"
+        android:summary="@string/pref_description_units"
+        android:title="@string/pref_string_units" />
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@string/pref_default_display_name"
+        android:hint="Enter your name"
+        android:inputType="textCapWords"
+        android:key="pref_name"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_display_name" />
+
+</PreferenceScreen>

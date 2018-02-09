@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">RunLogger</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_enable_social_running">Enable social running</string>
+    <string name="pref_description_social_running">Allow your runs to be displayed to other runners around the globe
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_string_units">Imperial Units</string>
+    <string name="pref_description_units">Enable imperial units. Default units are metric.</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="logout">Logout</string>
+    <string name="user">User</string>
+    <string name="about">About</string>
+    <string name="tools">Tools</string>
+    <string name="go_run">Go Run</string>
+    <string name="delete">Delete</string>
+    <string name="runlogger">RunLogger</string>
+    <string name="distance">Distance:</string>
+    <string name="pace">Pace:</string>
+    <string name="average_pace">Average pace:</string>
+    <string name="email">email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="btn_go_run">Go Run</string>
+    <string name="btn_pause_run">Pause</string>
+    <string name="starting_time">00:00</string>
+    <string name="base_distance">0.0</string>
+    <string name="pref_camera_summary">Allow camera permissions</string>
+    <string name="pref_camera_title">Camera Preferences</string>
+    <string name="camera_header">Camera Permissions</string>
+</resources>
